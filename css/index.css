@@ -123,7 +123,52 @@ nav{
 
 
 
+/* main style starts here */
 
+main{
+    padding: 4rem 0;
+    min-height: 80vh;
+}
+.sidebar{
+    flex: 1;
+    padding: var(--padding);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    align-self: flex-start;
+
+}
+
+
+
+.main-content{
+    flex: 3;
+    padding: var(--padding);
+}
+.action-sort select{
+    padding: var(--padding);
+}
+.actions-search input{
+    width: 15rem;
+    padding: var(--padding);
+
+}
+.actions-search button{
+    margin-left: -0.3rem;
+    border: 1px solid;
+    padding: 0.55rem;
+
+}
+
+
+
+
+
+
+
+
+/* main style ends here */
 
 
 
