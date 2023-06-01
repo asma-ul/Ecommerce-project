@@ -86,13 +86,14 @@ nav{
 .header{
     padding: 4rem 0;
     height: 80vh;
-    background: url(/img/background2.jpg) no-repeat center;
+    background: url(/img/background4.jpg) no-repeat center;
     background-attachment: fixed;
     background-size: cover;
+    
 }
 .banar{
     width: 100%;
-    height: 100%;
+    height: 50%;
     flex-direction: column;
 }
 .banar-title{
@@ -104,6 +105,7 @@ nav{
 
 .features{
     width: 100%;
+   
 }
 .feature{
     background-color: rgba(80, 160, 78, 0.7);
@@ -117,17 +119,17 @@ nav{
 .feature-icon{
     font-size: 3rem;
 }
-
-
-
-
-
-
-
-
-
-
 /* header style ends here */
+
+
+
+
+
+
+
+
+
+
 
 
 
