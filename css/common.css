@@ -18,6 +18,42 @@
     text-transform: uppercase;
     transition: var(--transition);
 }
+
 .btn:hover{
     background-color: var(--secondary-color);
 }
+
+.card{
+    box-shadow: var(--box-shadow);
+    border-radius: var(--border-radius);
+    padding: var(--padding);
+    transition: var(--transition);
+}
+
+.card:hover{
+    box-shadow: 0.1rem 0.2rem 0.8rem rgba(205, 202, 202, 1);
+}
+
+.hr-design{
+    margin: 0.5rem 0;
+}
+
+.dot{
+    height: 1.5rem;
+    width: 1.2rem;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+.black{
+    background-color: black;
+}
+
