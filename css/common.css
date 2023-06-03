@@ -56,4 +56,10 @@
 .black{
     background-color: black;
 }
+.text-center{
+    text-align: center;
+}
+.section-title{
+    font-size: 2rem;
+}
 

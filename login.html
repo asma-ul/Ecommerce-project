@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./css/register.css">
 </head>
 <body>
     <!-- navbar start here --> 
@@ -30,7 +32,7 @@
             </li>
 
             <li class="nav-list">
-                <a href="/index.html" class="nav-link">Logout</a>
+                <a href="index.html" class="nav-link">Logout</a>
             </li>
 
             <li class="nav-list">
@@ -48,29 +50,64 @@
         <ul class="nav-lower flex-space-around">
 
             <li class="nav-list">
-                <a href="/index.html" class=" nav-brand nav-link">
+                <a href="index.html" class=" nav-brand nav-link">
                   Asma Express
                 </a>
             </li>
 
             <li class="nav-list">
-                <a href="/cart.html" class=" nav-link">
+                <a href="cart.html" class=" nav-link">
                 <span><i class="fa-solid fa-cart-shopping"></i></span>
                 Cart 2 product -$124.40
                 </a>
             </li>
-            
-
         </ul>
-
-            <!-- lower end -->
+<!-- lower end -->
+</nav>
+<!-- navbar ends here -->
             
-        </nav>
+            
+        
 
- <!-- navbar ends here -->
+ 
  <main>
-    <h2>Login page</h2>
+    <section class="login">
+        <h2 class="section-title text-center"> User Login</h2>
+        <div class="card">
+            <form action="" class="form">
+
+           
+            <div class="form-control flex-center">
+                <label for="emil">Email</label>
+                <input type="email" id="email" required autocomplete="email">
+            </div>
+           
+            <div class="form-control flex-center">
+                <label for="password">Password</label>
+                <input type="password" id="password" required autocomplete="password">
+            </div>
+           
+           
+            
+            
+            <div class="form-control flex-center form-btn-field">
+               <button type="submit" class="btn contact-btn">submit</button>
+            </div>
+           
+
+            </form>
+        </div>
+    </section>
  </main>
+
+
+
+
+
+
+
+
+
 
  <!-- footer start here -->
 
