@@ -1,0 +1,33 @@
+.contact-section{
+    min-height: 52vh;
+}
+.contact-container{
+    margin-top: 5rem;
+}
+
+.contact-address{
+    flex: 1;
+    gap: 2rem;
+    flex-direction: column;
+}
+.contact-map{
+    width: 80%;
+}
+
+
+
+/* responsive start here */
+@media (max-width:992){
+     .contact-address{
+        width: 100%;
+     }
+   
+}
+
+@media (max-width:768){
+    
+}
+
+@media (max-width:600){
+    
+}

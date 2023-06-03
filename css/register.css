@@ -37,3 +37,38 @@
 .contact-btn{
     width: 30%;
 }
+
+
+
+
+
+
+/* responsive start here */
+@media (max-width:992){
+        .form, .form-control{
+            width: 100%;
+        }
+        .form-control input, textarea{
+          width: 80%;
+        }
+
+        .register .card{
+            width: 90%;
+        }
+
+
+        
+        .login .card{
+            width: 90%;
+
+        }
+   
+}
+
+@media (max-width:768){
+    
+}
+
+@media (max-width:600){
+    
+}
